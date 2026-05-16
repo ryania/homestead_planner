@@ -1,0 +1,2989 @@
+[
+  {
+    "id": "malus-honeycrisp",
+    "commonName": "Honeycrisp Apple",
+    "scientificName": "Malus domestica 'Honeycrisp'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 15,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-gala",
+          "name": "Gala",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-fuji",
+          "name": "Fuji",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-golden-delicious",
+          "name": "Golden Delicious",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-granny-smith",
+          "name": "Granny Smith",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Bloom group 3. Avoid Jonagold (triploid). Needs 1200 chill hours."
+    },
+    "hardiness": {
+      "usdaZones": "3-8",
+      "chillHoursRequired": 1200
+    },
+    "notes": "Heavy bearer. Prone to fire blight; choose resistant rootstock."
+  },
+  {
+    "id": "malus-gala",
+    "commonName": "Gala Apple",
+    "scientificName": "Malus domestica 'Gala'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 12,
+      "maxFt": 18,
+      "recommendedFt": 15
+    },
+    "mature": {
+      "heightFt": {
+        "min": 12,
+        "max": 20
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 40,
+        "max": 80
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-honeycrisp",
+          "name": "Honeycrisp",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-fuji",
+          "name": "Fuji",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-golden-delicious",
+          "name": "Golden Delicious",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Bloom group 3."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 500
+    },
+    "notes": "Early-ripening, mild sweet flavor. Good disease resistance."
+  },
+  {
+    "id": "malus-fuji",
+    "commonName": "Fuji Apple",
+    "scientificName": "Malus domestica 'Fuji'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 12,
+      "maxFt": 18,
+      "recommendedFt": 15
+    },
+    "mature": {
+      "heightFt": {
+        "min": 12,
+        "max": 20
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 40,
+        "max": 80
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-gala",
+          "name": "Gala",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-honeycrisp",
+          "name": "Honeycrisp",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-golden-delicious",
+          "name": "Golden Delicious",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Bloom group 6."
+    },
+    "hardiness": {
+      "usdaZones": "6-9",
+      "chillHoursRequired": 400
+    },
+    "notes": "Late-ripening, very sweet. Stores well."
+  },
+  {
+    "id": "malus-golden-delicious",
+    "commonName": "Golden Delicious Apple",
+    "scientificName": "Malus domestica 'Golden Delicious'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 12,
+      "maxFt": 18,
+      "recommendedFt": 15
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-honeycrisp",
+          "name": "Honeycrisp",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-gala",
+          "name": "Gala",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Partially self-fertile but much better with a pollinator. Universal pollenizer — good pollen for most apple varieties."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 600
+    },
+    "notes": "Excellent pollinator for other apples."
+  },
+  {
+    "id": "malus-granny-smith",
+    "commonName": "Granny Smith Apple",
+    "scientificName": "Malus domestica 'Granny Smith'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous",
+      "tart"
+    ],
+    "spacing": {
+      "minFt": 12,
+      "maxFt": 18,
+      "recommendedFt": 15
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 40,
+        "max": 80
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-golden-delicious",
+          "name": "Golden Delicious",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-fuji",
+          "name": "Fuji",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Bloom group 3-4. Needs long growing season."
+    },
+    "hardiness": {
+      "usdaZones": "6-9",
+      "chillHoursRequired": 400
+    },
+    "notes": "Tart, crisp. Good for baking. Stores extremely well."
+  },
+  {
+    "id": "malus-liberty",
+    "commonName": "Liberty Apple",
+    "scientificName": "Malus domestica 'Liberty'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous",
+      "disease-resistant"
+    ],
+    "spacing": {
+      "minFt": 12,
+      "maxFt": 18,
+      "recommendedFt": 15
+    },
+    "mature": {
+      "heightFt": {
+        "min": 12,
+        "max": 18
+      },
+      "spreadFt": {
+        "min": 10,
+        "max": 16
+      },
+      "lifespanYears": {
+        "min": 40,
+        "max": 80
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-honeycrisp",
+          "name": "Honeycrisp",
+          "effectiveness": "good"
+        },
+        {
+          "id": "malus-golden-delicious",
+          "name": "Golden Delicious",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Bloom group 3."
+    },
+    "hardiness": {
+      "usdaZones": "4-7",
+      "chillHoursRequired": 800
+    },
+    "notes": "Highly resistant to scab, fire blight, mildew, cedar-apple rust. Excellent for organic orchards."
+  },
+  {
+    "id": "malus-braeburn",
+    "commonName": "Braeburn Apple",
+    "scientificName": "Malus domestica 'Braeburn'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 12,
+      "maxFt": 18,
+      "recommendedFt": 15
+    },
+    "mature": {
+      "heightFt": {
+        "min": 12,
+        "max": 20
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 40,
+        "max": 80
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-golden-delicious",
+          "name": "Golden Delicious",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-gala",
+          "name": "Gala",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Bloom group 3-4."
+    },
+    "hardiness": {
+      "usdaZones": "6-9",
+      "chillHoursRequired": 400
+    },
+    "notes": "Biennial bearing tendency. Sweet-tart balance."
+  },
+  {
+    "id": "malus-jonagold",
+    "commonName": "Jonagold Apple",
+    "scientificName": "Malus domestica 'Jonagold'",
+    "category": "fruit-tree",
+    "tags": [
+      "apple",
+      "fruit",
+      "deciduous",
+      "triploid"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 15,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "malus-golden-delicious",
+          "name": "Golden Delicious",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "malus-gala",
+          "name": "Gala",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "TRIPLOID — produces sterile pollen. Cannot pollinate other trees. Needs two other diploid pollinators."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 800
+    },
+    "notes": "Large, sweet-tart flavor. Triploid: sterile pollen, plant two pollinators nearby."
+  },
+  {
+    "id": "pyrus-bartlett",
+    "commonName": "Bartlett Pear",
+    "scientificName": "Pyrus communis 'Bartlett'",
+    "category": "fruit-tree",
+    "tags": [
+      "pear",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 75
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "pyrus-bosc",
+          "name": "Bosc Pear",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "pyrus-moonglow",
+          "name": "Moonglow Pear",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Partially self-fertile but yields much better with a pollinator."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 800
+    },
+    "notes": "Classic canning and fresh-eating pear. Susceptible to fire blight."
+  },
+  {
+    "id": "pyrus-bosc",
+    "commonName": "Bosc Pear",
+    "scientificName": "Pyrus communis 'Bosc'",
+    "category": "fruit-tree",
+    "tags": [
+      "pear",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 75
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "pyrus-bartlett",
+          "name": "Bartlett",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "pyrus-moonglow",
+          "name": "Moonglow",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Cross with Bartlett or Moonglow."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 900
+    },
+    "notes": "Rich, buttery flavor. Best for baking and cooking."
+  },
+  {
+    "id": "pyrus-moonglow",
+    "commonName": "Moonglow Pear",
+    "scientificName": "Pyrus communis 'Moonglow'",
+    "category": "fruit-tree",
+    "tags": [
+      "pear",
+      "fruit",
+      "deciduous",
+      "disease-resistant"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 20
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 75
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "pyrus-bartlett",
+          "name": "Bartlett",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Self-fertile. Good universal pear pollinator."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 700
+    },
+    "notes": "Fire-blight resistant. Good pollinator for other pears."
+  },
+  {
+    "id": "prunus-stanley-plum",
+    "commonName": "Stanley Plum",
+    "scientificName": "Prunus domestica 'Stanley'",
+    "category": "fruit-tree",
+    "tags": [
+      "plum",
+      "fruit",
+      "deciduous",
+      "european"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 16
+    },
+    "mature": {
+      "heightFt": {
+        "min": 10,
+        "max": 15
+      },
+      "spreadFt": {
+        "min": 10,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile European plum."
+    },
+    "hardiness": {
+      "usdaZones": "5-7",
+      "chillHoursRequired": 800
+    },
+    "notes": "Classic prune plum. Self-fertile. Heavy producer. Good for drying and jam."
+  },
+  {
+    "id": "prunus-methley",
+    "commonName": "Methley Plum",
+    "scientificName": "Prunus salicina 'Methley'",
+    "category": "fruit-tree",
+    "tags": [
+      "plum",
+      "fruit",
+      "deciduous",
+      "japanese"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 16
+    },
+    "mature": {
+      "heightFt": {
+        "min": 10,
+        "max": 15
+      },
+      "spreadFt": {
+        "min": 10,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile Japanese plum. Also pollinates other Japanese plums."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": 250
+    },
+    "notes": "Low chill requirement. Self-fertile. Red-purple fruit, good for warm climates."
+  },
+  {
+    "id": "prunus-santa-rosa",
+    "commonName": "Santa Rosa Plum",
+    "scientificName": "Prunus salicina 'Santa Rosa'",
+    "category": "fruit-tree",
+    "tags": [
+      "plum",
+      "fruit",
+      "deciduous",
+      "japanese"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 16
+    },
+    "mature": {
+      "heightFt": {
+        "min": 10,
+        "max": 15
+      },
+      "spreadFt": {
+        "min": 10,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "prunus-methley",
+          "name": "Methley",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Mostly self-fertile but better yields with a pollinator."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": 300
+    },
+    "notes": "Classic California plum. Excellent flavor. Good fresh or preserved."
+  },
+  {
+    "id": "prunus-bing-cherry",
+    "commonName": "Bing Cherry",
+    "scientificName": "Prunus avium 'Bing'",
+    "category": "fruit-tree",
+    "tags": [
+      "cherry",
+      "fruit",
+      "deciduous",
+      "sweet"
+    ],
+    "spacing": {
+      "minFt": 20,
+      "maxFt": 30,
+      "recommendedFt": 25
+    },
+    "mature": {
+      "heightFt": {
+        "min": 20,
+        "max": 35
+      },
+      "spreadFt": {
+        "min": 20,
+        "max": 30
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "prunus-stella-cherry",
+          "name": "Stella",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "prunus-lapins-cherry",
+          "name": "Lapins",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Needs a compatible pollinator. Avoid Lamberts or Napoleon (same incompatibility group)."
+    },
+    "hardiness": {
+      "usdaZones": "5-7",
+      "chillHoursRequired": 700
+    },
+    "notes": "Large, dark, sweet cherry. Requires cross-pollination."
+  },
+  {
+    "id": "prunus-stella-cherry",
+    "commonName": "Stella Cherry",
+    "scientificName": "Prunus avium 'Stella'",
+    "category": "fruit-tree",
+    "tags": [
+      "cherry",
+      "fruit",
+      "deciduous",
+      "sweet",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 25,
+      "recommendedFt": 20
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 15,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "prunus-bing-cherry",
+          "name": "Bing",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Self-fertile sweet cherry. Also pollinates Bing, Lapins, etc."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 700
+    },
+    "notes": "Most popular self-fertile sweet cherry. Dark red fruit."
+  },
+  {
+    "id": "prunus-lapins-cherry",
+    "commonName": "Lapins Cherry",
+    "scientificName": "Prunus avium 'Lapins'",
+    "category": "fruit-tree",
+    "tags": [
+      "cherry",
+      "fruit",
+      "deciduous",
+      "sweet",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 25,
+      "recommendedFt": 20
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 20
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "prunus-bing-cherry",
+          "name": "Bing",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Self-fertile. Good pollinator for Bing."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 700
+    },
+    "notes": "Later harvest than Stella. Crack-resistant. Good flavor."
+  },
+  {
+    "id": "prunus-montmorency",
+    "commonName": "Montmorency Sour Cherry",
+    "scientificName": "Prunus cerasus 'Montmorency'",
+    "category": "fruit-tree",
+    "tags": [
+      "cherry",
+      "fruit",
+      "deciduous",
+      "sour",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 10,
+        "max": 18
+      },
+      "spreadFt": {
+        "min": 10,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "All sour cherries are self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "4-7",
+      "chillHoursRequired": 1000
+    },
+    "notes": "Most popular sour cherry in North America. Self-fertile. Excellent for pies and preserves."
+  },
+  {
+    "id": "prunus-redhaven-peach",
+    "commonName": "Redhaven Peach",
+    "scientificName": "Prunus persica 'Redhaven'",
+    "category": "fruit-tree",
+    "tags": [
+      "peach",
+      "fruit",
+      "deciduous",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 8,
+        "max": 15
+      },
+      "spreadFt": {
+        "min": 8,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "All common peaches are self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 800
+    },
+    "notes": "Freestone, early-mid season. Excellent flavor. Very popular homestead peach."
+  },
+  {
+    "id": "prunus-reliance-peach",
+    "commonName": "Reliance Peach",
+    "scientificName": "Prunus persica 'Reliance'",
+    "category": "fruit-tree",
+    "tags": [
+      "peach",
+      "fruit",
+      "deciduous",
+      "self-fertile",
+      "cold-hardy"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 8,
+        "max": 15
+      },
+      "spreadFt": {
+        "min": 8,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "4-8",
+      "chillHoursRequired": 1050
+    },
+    "notes": "Very cold-hardy peach for northern zones. Freestone, good flavor."
+  },
+  {
+    "id": "prunus-moorpark-apricot",
+    "commonName": "Moorpark Apricot",
+    "scientificName": "Prunus armeniaca 'Moorpark'",
+    "category": "fruit-tree",
+    "tags": [
+      "apricot",
+      "fruit",
+      "deciduous",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 12,
+        "max": 18
+      },
+      "spreadFt": {
+        "min": 12,
+        "max": 18
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": 700
+    },
+    "notes": "Large, sweet-tart fruit with rich flavor. Blooms early — frost can damage crop."
+  },
+  {
+    "id": "castanea-dunstan",
+    "commonName": "Dunstan Chestnut",
+    "scientificName": "Castanea 'Dunstan'",
+    "category": "nut-tree",
+    "tags": [
+      "chestnut",
+      "nut",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 25,
+      "maxFt": 40,
+      "recommendedFt": 35
+    },
+    "mature": {
+      "heightFt": {
+        "min": 40,
+        "max": 60
+      },
+      "spreadFt": {
+        "min": 30,
+        "max": 50
+      },
+      "lifespanYears": {
+        "min": 100,
+        "max": 500
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "castanea-dunstan",
+          "name": "Another Dunstan variety",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Plant at least 2 different chestnut trees (same species) within 100 ft for cross-pollination."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Blight-resistant hybrid. Must plant 2+ trees. Heavy producer once mature."
+  },
+  {
+    "id": "castanea-chinese",
+    "commonName": "Chinese Chestnut",
+    "scientificName": "Castanea mollissima",
+    "category": "nut-tree",
+    "tags": [
+      "chestnut",
+      "nut",
+      "deciduous",
+      "blight-resistant"
+    ],
+    "spacing": {
+      "minFt": 25,
+      "maxFt": 40,
+      "recommendedFt": 35
+    },
+    "mature": {
+      "heightFt": {
+        "min": 40,
+        "max": 60
+      },
+      "spreadFt": {
+        "min": 30,
+        "max": 50
+      },
+      "lifespanYears": {
+        "min": 100,
+        "max": 300
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "castanea-dunstan",
+          "name": "Dunstan Chestnut",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Plant 2+ trees for cross-pollination."
+    },
+    "hardiness": {
+      "usdaZones": "4-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Naturally blight-resistant. Excellent nut quality. Plant 2+ trees."
+  },
+  {
+    "id": "corylus-american-hazel",
+    "commonName": "American Hazelnut",
+    "scientificName": "Corylus americana",
+    "category": "nut-tree",
+    "tags": [
+      "hazelnut",
+      "filbert",
+      "nut",
+      "deciduous",
+      "native"
+    ],
+    "spacing": {
+      "minFt": 8,
+      "maxFt": 12,
+      "recommendedFt": 10
+    },
+    "mature": {
+      "heightFt": {
+        "min": 8,
+        "max": 16
+      },
+      "spreadFt": {
+        "min": 8,
+        "max": 12
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "corylus-wepster",
+          "name": "Wepster Hazelnut",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Self-sterile. Plant 2+ different varieties. Wind-pollinated."
+    },
+    "hardiness": {
+      "usdaZones": "4-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Native shrub/small tree. Drought tolerant once established. Excellent wildlife plant."
+  },
+  {
+    "id": "corylus-wepster",
+    "commonName": "Wepster Hazelnut",
+    "scientificName": "Corylus avellana 'Wepster'",
+    "category": "nut-tree",
+    "tags": [
+      "hazelnut",
+      "filbert",
+      "nut",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 8,
+      "maxFt": 12,
+      "recommendedFt": 10
+    },
+    "mature": {
+      "heightFt": {
+        "min": 8,
+        "max": 14
+      },
+      "spreadFt": {
+        "min": 8,
+        "max": 12
+      },
+      "lifespanYears": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "corylus-american-hazel",
+          "name": "American Hazelnut",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "corylus-jefferson",
+          "name": "Jefferson Hazelnut",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Wind-pollinated. Plant 2+ varieties."
+    },
+    "hardiness": {
+      "usdaZones": "4-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Productive variety. Resistant to Eastern Filbert Blight."
+  },
+  {
+    "id": "corylus-jefferson",
+    "commonName": "Jefferson Hazelnut",
+    "scientificName": "Corylus avellana 'Jefferson'",
+    "category": "nut-tree",
+    "tags": [
+      "hazelnut",
+      "filbert",
+      "nut",
+      "deciduous",
+      "blight-resistant"
+    ],
+    "spacing": {
+      "minFt": 8,
+      "maxFt": 12,
+      "recommendedFt": 10
+    },
+    "mature": {
+      "heightFt": {
+        "min": 8,
+        "max": 14
+      },
+      "spreadFt": {
+        "min": 8,
+        "max": 12
+      },
+      "lifespanYears": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "corylus-wepster",
+          "name": "Wepster",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Wind-pollinated. Plant 2+ varieties."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": null
+    },
+    "notes": "High EFB resistance. Large nuts, good flavor. OSU release."
+  },
+  {
+    "id": "juglans-black-walnut",
+    "commonName": "Black Walnut",
+    "scientificName": "Juglans nigra",
+    "category": "nut-tree",
+    "tags": [
+      "walnut",
+      "nut",
+      "deciduous",
+      "native",
+      "allelopathic"
+    ],
+    "spacing": {
+      "minFt": 40,
+      "maxFt": 60,
+      "recommendedFt": 50
+    },
+    "mature": {
+      "heightFt": {
+        "min": 50,
+        "max": 75
+      },
+      "spreadFt": {
+        "min": 40,
+        "max": 60
+      },
+      "lifespanYears": {
+        "min": 100,
+        "max": 200
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile. Wind-pollinated."
+    },
+    "hardiness": {
+      "usdaZones": "4-9",
+      "chillHoursRequired": null
+    },
+    "notes": "WARNING: Produces juglone, toxic to many plants (tomatoes, apples, blueberries, etc.) within 50-80 ft. Keep away from garden beds and fruit trees."
+  },
+  {
+    "id": "carya-pecan",
+    "commonName": "Pecan",
+    "scientificName": "Carya illinoinensis",
+    "category": "nut-tree",
+    "tags": [
+      "pecan",
+      "nut",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 40,
+      "maxFt": 60,
+      "recommendedFt": 50
+    },
+    "mature": {
+      "heightFt": {
+        "min": 70,
+        "max": 100
+      },
+      "spreadFt": {
+        "min": 40,
+        "max": 75
+      },
+      "lifespanYears": {
+        "min": 100,
+        "max": 300
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "carya-pecan",
+          "name": "Another variety (Type II)",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Pecans are protandrous (Type I) or protogynous (Type II). Plant one of each for pollination. Desirable=Type I, Stuart=Type II."
+    },
+    "hardiness": {
+      "usdaZones": "6-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Large tree. Long-lived. Needs warm long summers. Plant Type I + Type II for nut production."
+  },
+  {
+    "id": "vaccinium-bluecrop",
+    "commonName": "Bluecrop Blueberry",
+    "scientificName": "Vaccinium corymbosum 'Bluecrop'",
+    "category": "berry-bush",
+    "tags": [
+      "blueberry",
+      "berry",
+      "deciduous",
+      "highbush"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 6,
+      "recommendedFt": 5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 6
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 6
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "vaccinium-patriot",
+          "name": "Patriot",
+          "effectiveness": "excellent"
+        },
+        {
+          "id": "vaccinium-toro",
+          "name": "Toro",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Self-fertile but cross-pollination increases berry size and yield significantly."
+    },
+    "hardiness": {
+      "usdaZones": "4-7",
+      "chillHoursRequired": 1000
+    },
+    "notes": "Most widely planted highbush blueberry. Midseason. Needs acidic soil (pH 4.5-5.5)."
+  },
+  {
+    "id": "vaccinium-patriot",
+    "commonName": "Patriot Blueberry",
+    "scientificName": "Vaccinium corymbosum 'Patriot'",
+    "category": "berry-bush",
+    "tags": [
+      "blueberry",
+      "berry",
+      "deciduous",
+      "highbush",
+      "cold-hardy"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 6,
+      "recommendedFt": 5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 3,
+        "max": 5
+      },
+      "spreadFt": {
+        "min": 3,
+        "max": 5
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "vaccinium-bluecrop",
+          "name": "Bluecrop",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Self-fertile but better with a companion."
+    },
+    "hardiness": {
+      "usdaZones": "3-7",
+      "chillHoursRequired": 1000
+    },
+    "notes": "Excellent cold-hardiness. Early season. Good for northern gardens."
+  },
+  {
+    "id": "vaccinium-sunshine-blue",
+    "commonName": "Sunshine Blue Blueberry",
+    "scientificName": "Vaccinium corymbosum 'Sunshine Blue'",
+    "category": "berry-bush",
+    "tags": [
+      "blueberry",
+      "berry",
+      "semi-evergreen",
+      "southern-highbush",
+      "low-chill"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 6,
+      "recommendedFt": 5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 3,
+        "max": 4
+      },
+      "spreadFt": {
+        "min": 3,
+        "max": 4
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile low-chill blueberry."
+    },
+    "hardiness": {
+      "usdaZones": "5-10",
+      "chillHoursRequired": 150
+    },
+    "notes": "Low-chill, semi-evergreen. Good for warmer climates (zones 8-10). Ornamental pink flowers."
+  },
+  {
+    "id": "vaccinium-northblue",
+    "commonName": "Northblue Blueberry",
+    "scientificName": "Vaccinium 'Northblue'",
+    "category": "berry-bush",
+    "tags": [
+      "blueberry",
+      "berry",
+      "deciduous",
+      "half-high",
+      "cold-hardy"
+    ],
+    "spacing": {
+      "minFt": 3,
+      "maxFt": 5,
+      "recommendedFt": 4
+    },
+    "mature": {
+      "heightFt": {
+        "min": 2,
+        "max": 3
+      },
+      "spreadFt": {
+        "min": 2,
+        "max": 3
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "vaccinium-polaris",
+          "name": "Polaris",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Cross with Polaris for best results."
+    },
+    "hardiness": {
+      "usdaZones": "3-6",
+      "chillHoursRequired": 800
+    },
+    "notes": "Half-high, very cold-hardy. Large berries for its size. Great for zones 3-5."
+  },
+  {
+    "id": "vaccinium-polaris",
+    "commonName": "Polaris Blueberry",
+    "scientificName": "Vaccinium 'Polaris'",
+    "category": "berry-bush",
+    "tags": [
+      "blueberry",
+      "berry",
+      "deciduous",
+      "half-high",
+      "cold-hardy"
+    ],
+    "spacing": {
+      "minFt": 3,
+      "maxFt": 5,
+      "recommendedFt": 4
+    },
+    "mature": {
+      "heightFt": {
+        "min": 2,
+        "max": 3
+      },
+      "spreadFt": {
+        "min": 2,
+        "max": 3
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "vaccinium-northblue",
+          "name": "Northblue",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Cross with Northblue."
+    },
+    "hardiness": {
+      "usdaZones": "3-6",
+      "chillHoursRequired": 800
+    },
+    "notes": "Very early-ripening half-high. Excellent for northernmost gardens."
+  },
+  {
+    "id": "rubus-heritage-raspberry",
+    "commonName": "Heritage Raspberry",
+    "scientificName": "Rubus idaeus 'Heritage'",
+    "category": "berry-bush",
+    "tags": [
+      "raspberry",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "everbearing"
+    ],
+    "spacing": {
+      "minFt": 2,
+      "maxFt": 3,
+      "recommendedFt": 2.5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 6
+      },
+      "spreadFt": {
+        "min": 1,
+        "max": 2
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile. All raspberries are self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Everbearing (summer + fall crop). Most popular red raspberry. Plant in rows, 2-3 ft apart in row."
+  },
+  {
+    "id": "rubus-caroline-raspberry",
+    "commonName": "Caroline Raspberry",
+    "scientificName": "Rubus idaeus 'Caroline'",
+    "category": "berry-bush",
+    "tags": [
+      "raspberry",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "everbearing"
+    ],
+    "spacing": {
+      "minFt": 2,
+      "maxFt": 3,
+      "recommendedFt": 2.5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 5,
+        "max": 7
+      },
+      "spreadFt": {
+        "min": 1,
+        "max": 2
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "4-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Large, sweet berries. Everbearing. Disease-resistant."
+  },
+  {
+    "id": "rubus-fall-gold",
+    "commonName": "Fall Gold Raspberry",
+    "scientificName": "Rubus idaeus 'Fall Gold'",
+    "category": "berry-bush",
+    "tags": [
+      "raspberry",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "everbearing",
+      "yellow"
+    ],
+    "spacing": {
+      "minFt": 2,
+      "maxFt": 3,
+      "recommendedFt": 2.5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 6
+      },
+      "spreadFt": {
+        "min": 1,
+        "max": 2
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Yellow/golden everbearing raspberry. Very sweet, low acid. Birds find it less than red varieties."
+  },
+  {
+    "id": "rubus-triple-crown",
+    "commonName": "Triple Crown Blackberry",
+    "scientificName": "Rubus 'Triple Crown'",
+    "category": "berry-bush",
+    "tags": [
+      "blackberry",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "thornless"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 8,
+      "recommendedFt": 6
+    },
+    "mature": {
+      "heightFt": {
+        "min": 5,
+        "max": 8
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 8
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile. All blackberries are self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "5-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Semi-erect, thornless. Large berries, excellent flavor. Very productive. Needs trellis."
+  },
+  {
+    "id": "rubus-chester",
+    "commonName": "Chester Blackberry",
+    "scientificName": "Rubus 'Chester'",
+    "category": "berry-bush",
+    "tags": [
+      "blackberry",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "thornless"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 8,
+      "recommendedFt": 6
+    },
+    "mature": {
+      "heightFt": {
+        "min": 5,
+        "max": 8
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 8
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Late-season thornless blackberry. Cold-hardy. Very productive."
+  },
+  {
+    "id": "ribes-red-lake",
+    "commonName": "Red Lake Currant",
+    "scientificName": "Ribes sativum 'Red Lake'",
+    "category": "berry-bush",
+    "tags": [
+      "currant",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "tart"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 6,
+      "recommendedFt": 5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 6
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 6
+      },
+      "lifespanYears": {
+        "min": 15,
+        "max": 30
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-7",
+      "chillHoursRequired": null
+    },
+    "notes": "Productive red currant. Great for jelly and juice. Very cold-hardy. Check local regulations (may be prohibited near white pines)."
+  },
+  {
+    "id": "ribes-consort-black",
+    "commonName": "Consort Black Currant",
+    "scientificName": "Ribes nigrum 'Consort'",
+    "category": "berry-bush",
+    "tags": [
+      "currant",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "white-pine-blister-rust-resistant"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 6,
+      "recommendedFt": 5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 3,
+        "max": 5
+      },
+      "spreadFt": {
+        "min": 3,
+        "max": 5
+      },
+      "lifespanYears": {
+        "min": 15,
+        "max": 30
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-6",
+      "chillHoursRequired": null
+    },
+    "notes": "Immune to white pine blister rust. Very nutritious. Allowed in most states."
+  },
+  {
+    "id": "ribes-gooseberry-pixwell",
+    "commonName": "Pixwell Gooseberry",
+    "scientificName": "Ribes uva-crispa 'Pixwell'",
+    "category": "berry-bush",
+    "tags": [
+      "gooseberry",
+      "berry",
+      "deciduous",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 6,
+      "recommendedFt": 5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 3,
+        "max": 5
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 6
+      },
+      "lifespanYears": {
+        "min": 15,
+        "max": 30
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-7",
+      "chillHoursRequired": null
+    },
+    "notes": "Few thorns. Pink when ripe. Good fresh or for pies/jam. Very cold-hardy."
+  },
+  {
+    "id": "sambucus-elderberry",
+    "commonName": "Adams Elderberry",
+    "scientificName": "Sambucus canadensis 'Adams'",
+    "category": "berry-bush",
+    "tags": [
+      "elderberry",
+      "berry",
+      "deciduous",
+      "native"
+    ],
+    "spacing": {
+      "minFt": 6,
+      "maxFt": 10,
+      "recommendedFt": 8
+    },
+    "mature": {
+      "heightFt": {
+        "min": 6,
+        "max": 12
+      },
+      "spreadFt": {
+        "min": 6,
+        "max": 10
+      },
+      "lifespanYears": {
+        "min": 15,
+        "max": 30
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "sambucus-bob",
+          "name": "Bob Elderberry",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Plant Adams + Bob together for best yields."
+    },
+    "hardiness": {
+      "usdaZones": "3-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Plant with 'Bob' variety. Heavy yields when cross-pollinated. Berries must be cooked. Very fast growing."
+  },
+  {
+    "id": "sambucus-bob",
+    "commonName": "Bob Elderberry",
+    "scientificName": "Sambucus canadensis 'Bob'",
+    "category": "berry-bush",
+    "tags": [
+      "elderberry",
+      "berry",
+      "deciduous",
+      "native"
+    ],
+    "spacing": {
+      "minFt": 6,
+      "maxFt": 10,
+      "recommendedFt": 8
+    },
+    "mature": {
+      "heightFt": {
+        "min": 6,
+        "max": 12
+      },
+      "spreadFt": {
+        "min": 6,
+        "max": 10
+      },
+      "lifespanYears": {
+        "min": 15,
+        "max": 30
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "sambucus-elderberry",
+          "name": "Adams Elderberry",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Plant Bob + Adams together."
+    },
+    "hardiness": {
+      "usdaZones": "3-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Plant with 'Adams' variety for cross-pollination. Berries must be cooked."
+  },
+  {
+    "id": "rubus-arapaho",
+    "commonName": "Arapaho Blackberry",
+    "scientificName": "Rubus 'Arapaho'",
+    "category": "cane-fruit",
+    "tags": [
+      "blackberry",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "thornless",
+      "erect"
+    ],
+    "spacing": {
+      "minFt": 3,
+      "maxFt": 5,
+      "recommendedFt": 4
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 6
+      },
+      "spreadFt": {
+        "min": 2,
+        "max": 3
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "6-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Erect, thornless. Very early season. No trellis needed. Good for southern gardens."
+  },
+  {
+    "id": "rubus-navaho",
+    "commonName": "Navaho Blackberry",
+    "scientificName": "Rubus 'Navaho'",
+    "category": "cane-fruit",
+    "tags": [
+      "blackberry",
+      "berry",
+      "deciduous",
+      "self-fertile",
+      "thornless",
+      "erect"
+    ],
+    "spacing": {
+      "minFt": 3,
+      "maxFt": 5,
+      "recommendedFt": 4
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 6
+      },
+      "spreadFt": {
+        "min": 2,
+        "max": 3
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "6-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Erect, thornless. Small, sweet berries. Late season. No trellis needed."
+  },
+  {
+    "id": "rubus-boysenberry",
+    "commonName": "Boysenberry",
+    "scientificName": "Rubus ursinus x idaeus 'Boysen'",
+    "category": "cane-fruit",
+    "tags": [
+      "blackberry",
+      "berry",
+      "deciduous",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 8,
+      "recommendedFt": 6
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 8
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 8
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Large, tart-sweet berries. Cross between blackberry, raspberry, and loganberry. Needs trellis."
+  },
+  {
+    "id": "rubus-marionberry",
+    "commonName": "Marionberry",
+    "scientificName": "Rubus 'Marion'",
+    "category": "cane-fruit",
+    "tags": [
+      "blackberry",
+      "berry",
+      "deciduous",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 8,
+      "recommendedFt": 6
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 8
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 8
+      },
+      "lifespanYears": {
+        "min": 10,
+        "max": 20
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "6-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Oregon specialty. Rich complex flavor. Thorny. Needs trellis."
+  },
+  {
+    "id": "aronia-viking",
+    "commonName": "Viking Aronia (Chokeberry)",
+    "scientificName": "Aronia melanocarpa 'Viking'",
+    "category": "shrub",
+    "tags": [
+      "aronia",
+      "chokeberry",
+      "berry",
+      "deciduous",
+      "native",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 8,
+      "recommendedFt": 6
+    },
+    "mature": {
+      "heightFt": {
+        "min": 5,
+        "max": 8
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 8
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Very cold-hardy. Astringent berries excellent for juice, jam, wine. Rich in antioxidants. Drought-tolerant."
+  },
+  {
+    "id": "amelanchier-serviceberry",
+    "commonName": "Saskatoon Serviceberry",
+    "scientificName": "Amelanchier alnifolia",
+    "category": "shrub",
+    "tags": [
+      "serviceberry",
+      "berry",
+      "deciduous",
+      "native",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 8,
+      "recommendedFt": 6
+    },
+    "mature": {
+      "heightFt": {
+        "min": 6,
+        "max": 15
+      },
+      "spreadFt": {
+        "min": 6,
+        "max": 12
+      },
+      "lifespanYears": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile. Pollinators help but not required."
+    },
+    "hardiness": {
+      "usdaZones": "2-7",
+      "chillHoursRequired": null
+    },
+    "notes": "Extremely cold-hardy. Sweet blueberry-like berries. Beautiful spring flowers. Bird magnet."
+  },
+  {
+    "id": "hippophae-sea-buckthorn",
+    "commonName": "Sea Buckthorn",
+    "scientificName": "Hippophae rhamnoides",
+    "category": "shrub",
+    "tags": [
+      "sea-buckthorn",
+      "berry",
+      "deciduous",
+      "nitrogen-fixing"
+    ],
+    "spacing": {
+      "minFt": 6,
+      "maxFt": 10,
+      "recommendedFt": 8
+    },
+    "mature": {
+      "heightFt": {
+        "min": 6,
+        "max": 20
+      },
+      "spreadFt": {
+        "min": 6,
+        "max": 12
+      },
+      "lifespanYears": {
+        "min": 30,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "hippophae-sea-buckthorn-male",
+          "name": "Sea Buckthorn (Male)",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "DIOECIOUS — separate male and female plants. Plant 1 male per 6-8 females. Only females produce fruit."
+    },
+    "hardiness": {
+      "usdaZones": "3-7",
+      "chillHoursRequired": null
+    },
+    "notes": "Nitrogen-fixer. Highly nutritious orange berries. Thorny. Spreads by suckers."
+  },
+  {
+    "id": "rosa-rugosa",
+    "commonName": "Rugosa Rose",
+    "scientificName": "Rosa rugosa",
+    "category": "shrub",
+    "tags": [
+      "rose",
+      "hip",
+      "self-fertile",
+      "edible",
+      "fragrant"
+    ],
+    "spacing": {
+      "minFt": 4,
+      "maxFt": 6,
+      "recommendedFt": 5
+    },
+    "mature": {
+      "heightFt": {
+        "min": 4,
+        "max": 6
+      },
+      "spreadFt": {
+        "min": 4,
+        "max": 8
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "2-7",
+      "chillHoursRequired": null
+    },
+    "notes": "Large, vitamin-C-rich rose hips. Fragrant flowers. Disease-resistant. Forms dense thorny hedges. Spreads by suckers."
+  },
+  {
+    "id": "crataegus-hawthorn",
+    "commonName": "Washington Hawthorn",
+    "scientificName": "Crataegus phaenopyrum",
+    "category": "shrub",
+    "tags": [
+      "hawthorn",
+      "berry",
+      "deciduous",
+      "native",
+      "hedgerow"
+    ],
+    "spacing": {
+      "minFt": 10,
+      "maxFt": 15,
+      "recommendedFt": 12
+    },
+    "mature": {
+      "heightFt": {
+        "min": 20,
+        "max": 30
+      },
+      "spreadFt": {
+        "min": 15,
+        "max": 25
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Dense thorny hedge plant. Red berries (haws) used for tea and medicine. Excellent wildlife plant. Long-lived."
+  },
+  {
+    "id": "prunus-nanking-cherry",
+    "commonName": "Nanking Cherry",
+    "scientificName": "Prunus tomentosa",
+    "category": "shrub",
+    "tags": [
+      "cherry",
+      "fruit",
+      "deciduous"
+    ],
+    "spacing": {
+      "minFt": 6,
+      "maxFt": 10,
+      "recommendedFt": 8
+    },
+    "mature": {
+      "heightFt": {
+        "min": 6,
+        "max": 10
+      },
+      "spreadFt": {
+        "min": 6,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "prunus-nanking-cherry",
+          "name": "Another Nanking Cherry",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "Plant 2+ plants (different seedling sources) for cross-pollination."
+    },
+    "hardiness": {
+      "usdaZones": "2-7",
+      "chillHoursRequired": null
+    },
+    "notes": "Extremely cold-hardy. Tart red cherries. Very ornamental. Plant 2+ for fruit."
+  },
+  {
+    "id": "asimina-pawpaw",
+    "commonName": "Pawpaw",
+    "scientificName": "Asimina triloba",
+    "category": "shrub",
+    "tags": [
+      "pawpaw",
+      "fruit",
+      "deciduous",
+      "native",
+      "tropical-flavor"
+    ],
+    "spacing": {
+      "minFt": 8,
+      "maxFt": 15,
+      "recommendedFt": 12
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 10,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "asimina-pawpaw",
+          "name": "Another pawpaw variety (different clone)",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "IMPORTANT: Plant 2+ genetically different varieties (not same clone). Pollinated by flies/beetles, not bees — may need hand-pollination or planting near carrion. Named varieties: Shenandoah, Susquehanna, Mango, Sunflower."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Largest native fruit. Tropical mango-banana flavor. Needs full shade as seedling. Plant 2+ varieties. Hand-pollination recommended for heavy crops."
+  },
+  {
+    "id": "diospyros-fuyu",
+    "commonName": "Fuyu Persimmon",
+    "scientificName": "Diospyros kaki 'Fuyu'",
+    "category": "shrub",
+    "tags": [
+      "persimmon",
+      "fruit",
+      "deciduous",
+      "self-fertile",
+      "non-astringent"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 15,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile. Non-astringent (edible firm like an apple)."
+    },
+    "hardiness": {
+      "usdaZones": "7-10",
+      "chillHoursRequired": null
+    },
+    "notes": "Non-astringent. Eat firm off the tree. Beautiful fall color. Very ornamental."
+  },
+  {
+    "id": "diospyros-meader-american",
+    "commonName": "Meader American Persimmon",
+    "scientificName": "Diospyros virginiana 'Meader'",
+    "category": "shrub",
+    "tags": [
+      "persimmon",
+      "fruit",
+      "deciduous",
+      "native",
+      "self-fertile",
+      "cold-hardy"
+    ],
+    "spacing": {
+      "minFt": 15,
+      "maxFt": 20,
+      "recommendedFt": 18
+    },
+    "mature": {
+      "heightFt": {
+        "min": 20,
+        "max": 35
+      },
+      "spreadFt": {
+        "min": 15,
+        "max": 25
+      },
+      "lifespanYears": {
+        "min": 50,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile. Rare for American persimmon."
+    },
+    "hardiness": {
+      "usdaZones": "4-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Cold-hardy to zone 4. Self-fertile (rare). Small but intensely sweet fruit after frost. Native tree."
+  },
+  {
+    "id": "vitis-concord",
+    "commonName": "Concord Grape",
+    "scientificName": "Vitis labrusca 'Concord'",
+    "category": "vine",
+    "tags": [
+      "grape",
+      "vine",
+      "deciduous",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 8,
+      "maxFt": 10,
+      "recommendedFt": 8
+    },
+    "mature": {
+      "heightFt": {
+        "min": 6,
+        "max": 10
+      },
+      "spreadFt": {
+        "min": 6,
+        "max": 10
+      },
+      "lifespanYears": {
+        "min": 30,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile. All common grape varieties are self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "4-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Classic American grape. Blue-purple, slip-skin. Excellent for juice and jam. Very cold-hardy."
+  },
+  {
+    "id": "vitis-marquette",
+    "commonName": "Marquette Grape",
+    "scientificName": "Vitis 'Marquette'",
+    "category": "vine",
+    "tags": [
+      "grape",
+      "vine",
+      "deciduous",
+      "self-fertile",
+      "wine",
+      "cold-hardy"
+    ],
+    "spacing": {
+      "minFt": 6,
+      "maxFt": 8,
+      "recommendedFt": 6
+    },
+    "mature": {
+      "heightFt": {
+        "min": 6,
+        "max": 10
+      },
+      "spreadFt": {
+        "min": 6,
+        "max": 8
+      },
+      "lifespanYears": {
+        "min": 30,
+        "max": 100
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Self-fertile."
+    },
+    "hardiness": {
+      "usdaZones": "3-7",
+      "chillHoursRequired": null
+    },
+    "notes": "Excellent cold-hardy red wine grape. UMN release. Disease-resistant."
+  },
+  {
+    "id": "actinidia-hardy-kiwi",
+    "commonName": "Hardy Kiwi",
+    "scientificName": "Actinidia arguta",
+    "category": "vine",
+    "tags": [
+      "kiwi",
+      "vine",
+      "deciduous",
+      "edible"
+    ],
+    "spacing": {
+      "minFt": 10,
+      "maxFt": 15,
+      "recommendedFt": 12
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 30
+      },
+      "spreadFt": {
+        "min": 10,
+        "max": 20
+      },
+      "lifespanYears": {
+        "min": 30,
+        "max": 60
+      }
+    },
+    "pollination": {
+      "selfFertile": false,
+      "pollinatorRequired": true,
+      "yieldWithoutPollinator": "none",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "actinidia-hardy-kiwi-male",
+          "name": "Hardy Kiwi (Male)",
+          "effectiveness": "excellent"
+        }
+      ],
+      "notes": "DIOECIOUS. Plant 1 male per 6-8 females. Only female plants produce fruit."
+    },
+    "hardiness": {
+      "usdaZones": "3-8",
+      "chillHoursRequired": null
+    },
+    "notes": "Grape-sized kiwis with edible skin. Very vigorous — needs strong trellis. Plant female + male."
+  },
+  {
+    "id": "actinidia-issai",
+    "commonName": "Issai Hardy Kiwi",
+    "scientificName": "Actinidia arguta 'Issai'",
+    "category": "vine",
+    "tags": [
+      "kiwi",
+      "vine",
+      "deciduous",
+      "edible",
+      "self-fertile"
+    ],
+    "spacing": {
+      "minFt": 8,
+      "maxFt": 12,
+      "recommendedFt": 10
+    },
+    "mature": {
+      "heightFt": {
+        "min": 10,
+        "max": 20
+      },
+      "spreadFt": {
+        "min": 8,
+        "max": 15
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 40
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "reduced",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [
+        {
+          "id": "actinidia-hardy-kiwi",
+          "name": "Hardy Kiwi (male)",
+          "effectiveness": "good"
+        }
+      ],
+      "notes": "Self-fertile but fruits better with a male nearby."
+    },
+    "hardiness": {
+      "usdaZones": "5-9",
+      "chillHoursRequired": null
+    },
+    "notes": "Self-fertile hardy kiwi. Bears at a younger age than species. Less vigorous."
+  },
+  {
+    "id": "humulus-lupulus",
+    "commonName": "Hops",
+    "scientificName": "Humulus lupulus",
+    "category": "vine",
+    "tags": [
+      "hops",
+      "vine",
+      "deciduous",
+      "edible",
+      "aggressive"
+    ],
+    "spacing": {
+      "minFt": 3,
+      "maxFt": 5,
+      "recommendedFt": 4
+    },
+    "mature": {
+      "heightFt": {
+        "min": 15,
+        "max": 25
+      },
+      "spreadFt": {
+        "min": 3,
+        "max": 6
+      },
+      "lifespanYears": {
+        "min": 20,
+        "max": 50
+      }
+    },
+    "pollination": {
+      "selfFertile": true,
+      "pollinatorRequired": false,
+      "yieldWithoutPollinator": "full",
+      "yieldWithPollinator": "full",
+      "compatibleVarieties": [],
+      "notes": "Female plants produce cones. Plant females only for brewing."
+    },
+    "hardiness": {
+      "usdaZones": "3-8",
+      "chillHoursRequired": null
+    },
+    "notes": "WARNING: Extremely vigorous and aggressive spreader via rhizomes. Needs very strong trellis (20+ ft). Dies back to ground each winter."
+  }
+]
