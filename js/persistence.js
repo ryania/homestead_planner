@@ -229,6 +229,10 @@ function initSettingsModal() {
     modal.classList.add('hidden');
   });
 
-  const storedKey = localStorage.getItem('homestead_trefle_key');
-  if (storedKey) state.settings.trefleApiKey = storedKey;
+  try {
+    const storedKey = localStorage.getItem('homestead_trefle_key');
+    if (storedKey) state.settings.trefleApiKey = storedKey;
+  } catch (e) {
+    // localStorage unavailable (e.g. private browsing, blocked by policy)
+  }
 }

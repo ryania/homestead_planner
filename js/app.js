@@ -128,4 +128,4 @@ function setupExportButton() {
   document.getElementById('btn-export-png')?.addEventListener('click', exportPng);
 }
 
-document.addEventListener('DOMContentLoaded', boot);
+boot();
