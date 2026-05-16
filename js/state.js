@@ -81,6 +81,8 @@ export function setEntity(id, data) {
 }
 
 export function deleteEntity(id) {
+  const entity = state.entities.get(id);
+  if (entity) bus.emit('entity-will-delete', entity);
   state.entities.delete(id);
   if (state.selectedEntityId === id) {
     state.selectedEntityId = null;

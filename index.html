@@ -17,8 +17,12 @@
         <span id="design-name" class="design-name" title="Click to rename">My Homestead</span>
       </div>
       <div id="header-center">
+        <button id="btn-undo" class="header-btn" title="Undo (Ctrl+Z)" disabled>&#8630;</button>
+        <button id="btn-redo" class="header-btn" title="Redo (Ctrl+Y)" disabled>&#8631;</button>
+        <span class="header-divider"></span>
         <button id="btn-save" class="header-btn" title="Save design (Ctrl+S)">Save</button>
         <button id="btn-load" class="header-btn" title="Load design (Ctrl+O)">Load</button>
+        <button id="btn-export-png" class="header-btn" title="Export as PNG image">Export PNG</button>
         <input type="file" id="file-input" accept=".json" style="display:none">
         <div id="scale-display" class="scale-display" title="Click to change scale">
           <span id="scale-label">1 sq = 5 ft</span>
@@ -82,6 +86,10 @@
         </div>
 
         <div class="tool-group">
+          <button class="tool-btn modal-btn" id="btn-calendar" title="Planting Calendar">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2" fill="none" stroke-width="2"/><line x1="3" y1="9" x2="21" y2="9" stroke-width="2"/><line x1="8" y1="2" x2="8" y2="6" stroke-width="2"/><line x1="16" y1="2" x2="16" y2="6" stroke-width="2"/><rect x="7" y="12" width="3" height="3" rx="0.5"/><rect x="14" y="12" width="3" height="3" rx="0.5"/></svg>
+            <span>Calendar</span>
+          </button>
           <button class="tool-btn modal-btn" id="btn-chickens" title="Manage Chickens">
             <svg viewBox="0 0 24 24"><ellipse cx="12" cy="14" rx="6" ry="5"/><circle cx="12" cy="7" r="3"/><path d="M9 5 Q7 2 5 4" stroke-width="1.5" fill="none"/><path d="M15 5 Q17 2 19 4" stroke-width="1.5" fill="none"/></svg>
             <span>Chickens</span>
@@ -236,6 +244,24 @@
   <!-- Autosave restore notification -->
   <div id="autosave-notice" class="notice hidden">
     <span>Unsaved design found. <button id="btn-restore-autosave">Restore</button> or <button id="btn-dismiss-autosave">Dismiss</button></span>
+  </div>
+
+  <!-- Modal: Planting Calendar -->
+  <div id="modal-calendar" class="modal hidden" role="dialog" aria-modal="true" aria-label="Planting Calendar">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box modal-wide">
+      <div class="modal-header">
+        <h2>Planting Calendar</h2>
+        <button class="modal-close" data-modal="modal-calendar">&times;</button>
+      </div>
+      <div class="modal-body" id="calendar-body">
+        <!-- Populated by calendar.js -->
+      </div>
+      <div class="modal-footer">
+        <small class="cal-zone-note">Zone: <span id="cal-zone-display">—</span> &nbsp;·&nbsp; Dates are approximate; adjust for your microclimate.</small>
+        <button id="calendar-close" class="btn-secondary">Close</button>
+      </div>
+    </div>
   </div>
 
   <script type="module" src="js/app.js"></script>
