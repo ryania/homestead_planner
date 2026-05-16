@@ -877,6 +877,113 @@ canvas { display: block; }
 ::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
+/* ===== Header divider ===== */
+.header-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--border-light);
+  display: inline-block;
+  margin: 0 2px;
+}
+
+/* ===== Undo/Redo buttons ===== */
+#btn-undo, #btn-redo {
+  font-size: 16px;
+  min-width: 30px;
+}
+#btn-undo:disabled, #btn-redo:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ===== Planting Calendar ===== */
+.cal-legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+.cal-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.cal-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.cal-scroll {
+  overflow-x: auto;
+}
+
+.cal-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px;
+  font-size: 12px;
+}
+.cal-table th, .cal-table td {
+  border: 1px solid var(--border);
+  padding: 5px 4px;
+  text-align: center;
+  white-space: nowrap;
+}
+.cal-table th {
+  background: var(--bg-header);
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+.cal-plant-col {
+  text-align: left !important;
+  padding-left: 8px !important;
+  min-width: 140px;
+  font-weight: 500;
+}
+.cal-plant-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.cal-cell {
+  min-width: 36px;
+}
+.cal-active {
+  background: rgba(255,255,255,0.04);
+}
+.cal-bar {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  margin: 1px;
+  vertical-align: middle;
+}
+.cal-current-month {
+  background: rgba(233, 69, 96, 0.12) !important;
+  border-color: var(--accent) !important;
+}
+.cal-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  padding: 32px 0;
+}
+.cal-zone-note {
+  color: var(--text-muted);
+  font-size: 11px;
+  align-self: center;
+  margin-right: auto;
+}
+
 /* Print */
 @media print {
   #header, #toolbar, #properties-panel, #status-bar { display: none; }

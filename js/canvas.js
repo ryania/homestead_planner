@@ -250,3 +250,26 @@ export function snapToGrid(worldX, worldY) {
     y: Math.round(worldY / cellPx) * cellPx,
   };
 }
+
+// ===== PNG Export =====
+
+export function exportPng() {
+  // Temporarily hide grid lines for a clean export
+  const gridObjs = canvas.getObjects().filter(o => o.isGridLine);
+  gridObjs.forEach(o => o.set({ visible: false }));
+  canvas.renderAll();
+
+  const dataUrl = canvas.toDataURL({
+    format: 'png',
+    quality: 1,
+    multiplier: window.devicePixelRatio || 1,
+  });
+
+  gridObjs.forEach(o => o.set({ visible: true }));
+  canvas.renderAll();
+
+  const a = document.createElement('a');
+  a.href = dataUrl;
+  a.download = 'homestead.png';
+  a.click();
+}

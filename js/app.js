@@ -1,11 +1,13 @@
 import { state, bus, selectEntity } from './state.js';
-import { init as initCanvas, setZoom, fitToView, drawGrid } from './canvas.js';
+import { init as initCanvas, setZoom, fitToView, drawGrid, exportPng } from './canvas.js';
 import { init as initToolbar, activateTool } from './toolbar.js';
 import { init as initProperties } from './panels/properties.js';
 import { init as initPlantBrowser } from './panels/plant-browser.js';
 import { init as initChickenManager } from './panels/chicken-manager.js';
 import { init as initScale, initScalePopover, checkSpacingOverlaps } from './scale.js';
 import { init as initPersistence } from './persistence.js';
+import { initHistory, undo, redo, clearHistory } from './history.js';
+import { init as initCalendar } from './panels/calendar.js';
 
 async function boot() {
   const fabricCanvas = initCanvas();
@@ -17,11 +19,17 @@ async function boot() {
   initScale(fabricCanvas);
   initScalePopover();
   initPersistence(fabricCanvas);
+  initHistory(fabricCanvas);
+  initCalendar();
 
   setupZoomButtons(fabricCanvas);
   setupKeyboardShortcuts(fabricCanvas);
   setupModalCloseButtons();
   setupTreeMoveOverlapCheck(fabricCanvas);
+  setupExportButton();
+
+  // Clear history when a new design is loaded so undo doesn't span files
+  bus.on('design-loaded', () => clearHistory());
 
   document.getElementById('btn-plant-browser').addEventListener('click', () => {
     import('./panels/plant-browser.js').then(m => m.openBrowser(() => {}));
@@ -58,6 +66,16 @@ function setupKeyboardShortcuts(fabricCanvas) {
       });
     }
 
+    if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+      e.preventDefault();
+      undo();
+    }
+
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+      e.preventDefault();
+      redo();
+    }
+
     if ((e.ctrlKey || e.metaKey) && e.key === 's') {
       e.preventDefault();
       import('./persistence.js').then(({ saveDesign }) => saveDesign());
@@ -78,6 +96,10 @@ function setupKeyboardShortcuts(fabricCanvas) {
       setZoom(1, true);
     }
   });
+
+  // Wire undo/redo buttons
+  document.getElementById('btn-undo')?.addEventListener('click', undo);
+  document.getElementById('btn-redo')?.addEventListener('click', redo);
 }
 
 function setupModalCloseButtons() {
@@ -100,6 +122,10 @@ function setupTreeMoveOverlapCheck(fabricCanvas) {
   fabricCanvas.on('object:modified', () => {
     checkSpacingOverlaps();
   });
+}
+
+function setupExportButton() {
+  document.getElementById('btn-export-png')?.addEventListener('click', exportPng);
 }
 
 document.addEventListener('DOMContentLoaded', boot);

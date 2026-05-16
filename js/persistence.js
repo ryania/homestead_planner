@@ -140,6 +140,7 @@ export async function loadDesign(data) {
 
   document.getElementById('design-name').textContent = state.meta.name || 'My Homestead';
   bus.emit('scale-changed', {});
+  bus.emit('design-loaded', {});
   _canvas.renderAll();
   markClean();
 }
